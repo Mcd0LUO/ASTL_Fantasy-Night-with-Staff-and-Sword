@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "criteria_0": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:consumable": {
+                            "consume_seconds": 1000000
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": ""
+    }
+}

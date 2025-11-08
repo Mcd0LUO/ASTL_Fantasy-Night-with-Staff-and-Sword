@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "init":{
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "init"
+        ]
+    ],
+    "rewards": {
+        "function": "lserver:player/config/init"
+    }
+
+}

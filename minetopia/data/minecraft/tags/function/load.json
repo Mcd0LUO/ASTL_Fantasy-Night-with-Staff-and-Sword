@@ -1,0 +1,8 @@
+{
+    "values": [
+        "llib:stdmath/setup",
+        "llib:stdanalysis/setup",
+        "lrpg:setup",
+        "lserver:setup"
+    ]
+}

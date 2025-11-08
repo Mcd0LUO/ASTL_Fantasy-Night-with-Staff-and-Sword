@@ -1,0 +1,1 @@
+function llib:raycast/is_collision

@@ -1,0 +1,3 @@
+say §einitializing...
+
+item replace entity @s saddle with nether_star[enchantments={"lrpg:post_attack": 1},equippable={slot:"saddle"}]
