@@ -1,3 +1,3 @@
-scoreboard players set @s Lhealth 20 
-scoreboard players set @s Lattack 5
-scoreboard players set @s Ldefense 1
+scoreboard players set @s lrpg.health 200
+scoreboard players set @s lrpg.attack 50
+scoreboard players set @s lrpg.defense 10

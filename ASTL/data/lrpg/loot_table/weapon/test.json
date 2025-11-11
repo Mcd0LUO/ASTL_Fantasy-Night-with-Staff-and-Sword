@@ -1,0 +1,55 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "§eTest",
+                                "enchantments": {
+                                    "lrpg:left_click": 1
+                                },
+                                "piercing_weapon": {
+                                    "max_reach": 0,
+                                    "hitbox_margin": 0.3
+                                },
+                                "consumable": {
+                                    "animation": "none",
+                                    "consume_seconds": 1E6
+                                },
+                                "unbreakable": {},
+                                "custom_data": {
+                                    "uid": "lrpg:test",
+                                    "uuid": "",
+                                    "last_attack_timestamp": 0,
+                                    "events": {
+                                        "right_click": true,
+                                        "left_click": true 
+                                        },
+                                    "components": {
+                                        "combo": {
+                                            "state": 0,
+                                            "cooldown": 0.5,
+                                            "set_ref": "test_set",
+                                            "enable": true
+                                            }
+                                        },
+                                    "attribute": {
+                                        "attack_power": 10.0,
+                                        "crit_rate": 10.0
+                                        }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+    
+}

@@ -1,7 +1,10 @@
-## 固定攻击值的攻击函数 传入攻击数值，并对攻击对象赋值tag: active_attack_target
-
-    $scoreboard players set @s temp1 $(damage)
-    scoreboard players operation @e[distance=..20,tag=active_attack_target] Lhealth -= @s temp1
-
+## 固定伤害攻击
+    #@args {
+        # uuid: string - 命令执行者uuid
+        # damage: int - 攻击值 > 具体值 * 10,如攻击值0.5,传入5
+        # target: selector - 选择器参数 > 请传入可以选择到将攻击的可攻击对象的选择器参数
+    #}
+    $scoreboard players set @s lrpg.cause_damage $(damage)
+    $execute as @e[$(target)] run function lrpg:enemy/hurt/hurt_by_fixed_value {damage: $(damage)}
 
 #

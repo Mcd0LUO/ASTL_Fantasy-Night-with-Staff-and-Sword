@@ -11,11 +11,11 @@
 
 ##
     # 距离
-    execute store result score %sight_line_watcher temp1 run data get storage llib:raycast_args distance 10
+    execute store result score #sight_line_watcher temp1 run data get storage llib:raycast_args distance 10
     # 步长
-    execute store result score %sight_line_watcher temp2 run data get storage llib:raycast_args step 10
+    execute store result score #sight_line_watcher temp2 run data get storage llib:raycast_args step 10
     # 递归
-    function llib:raycast/get_entity_in_sight_line/_ with storage llib:raycast_args
+    execute anchored eyes run function llib:raycast/get_entity_in_sight_line/_ with storage llib:raycast_args
 
 
 #

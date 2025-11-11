@@ -21,7 +21,7 @@
                 "enchanted": "victim",
                 "effect": {
                         "type": "run_function",
-                        "function": "lrpg:event/entity/on_entity_hurt_by_normal"    
+                        "function": "llib:easy_data/get_real_time"    
             }
             }
         ]

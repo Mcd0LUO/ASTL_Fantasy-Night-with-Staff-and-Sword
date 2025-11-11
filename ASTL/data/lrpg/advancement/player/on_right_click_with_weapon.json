@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "right_click": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": 
+                {
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "events": {
+                            "right_click": true
+                        }
+                    }
+                }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "lrpg:player/event/on_click_right_with_wepaon"
+    }
+}

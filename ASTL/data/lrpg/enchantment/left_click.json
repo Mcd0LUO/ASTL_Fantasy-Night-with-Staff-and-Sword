@@ -1,0 +1,28 @@
+{
+    "description": "Left click attack",
+    "anvil_cost": 0,
+    "max_level": 1,
+    "weight": 1,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "supported_items": "#lrpg:enchantable",
+    "effects": {
+        "minecraft:post_piercing_attack": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "lrpg:player/event/on_click_left_with_wepaon"
+                }
+            }
+        ]
+    },
+    "slots": [
+        "any"
+    ]
+}

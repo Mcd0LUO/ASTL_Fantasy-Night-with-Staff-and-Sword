@@ -1,0 +1,1 @@
+execute if score @s lrpg.health matches ..0 run return 1

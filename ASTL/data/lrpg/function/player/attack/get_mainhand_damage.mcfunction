@@ -1,1 +1,0 @@
-return run data get entity @s SelectedItem.components."minecraft:custom_data".attack
