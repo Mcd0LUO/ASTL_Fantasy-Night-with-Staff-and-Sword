@@ -1,0 +1,1 @@
+$data modify storage llib:temp find_all.main_char set string storage llib:input find_all.str $(main_start) $(main_end)

@@ -1,0 +1,1 @@
+$data modify storage llib:temp find_all.bad_char_map."$(needle_char)" set value $(needle_start)

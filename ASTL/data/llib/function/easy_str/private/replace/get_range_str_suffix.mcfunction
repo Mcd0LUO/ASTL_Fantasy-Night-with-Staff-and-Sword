@@ -1,0 +1,1 @@
+$data modify storage llib:temp replace.suffix set string storage llib:temp replace.result $(end_index) $(suffix_len)

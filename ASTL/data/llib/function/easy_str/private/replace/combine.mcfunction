@@ -1,0 +1,1 @@
+$data modify storage llib:temp replace.result set value "$(prefix)$(new)$(suffix)"

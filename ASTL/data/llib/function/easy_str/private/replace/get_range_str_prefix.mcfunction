@@ -1,0 +1,1 @@
+$data modify storage llib:temp replace.prefix set string storage llib:input replace.str 0 $(start_index)

@@ -1,0 +1,1 @@
+$data modify storage llib:temp find_all.needle_char set string storage llib:input find_all.find $(needle_start) $(needle_end)

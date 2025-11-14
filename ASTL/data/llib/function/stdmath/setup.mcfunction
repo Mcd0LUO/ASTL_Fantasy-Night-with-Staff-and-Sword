@@ -6,5 +6,6 @@ scoreboard objectives add const dummy
 scoreboard players set #math.2 const 2
 scoreboard players set #math.10 const 10
 scoreboard players set #math.20 const 20
+scoreboard players set #math.100 const 100
 scoreboard players set #math.1000 const 1000
 scoreboard players set #math.10000 const 10000
