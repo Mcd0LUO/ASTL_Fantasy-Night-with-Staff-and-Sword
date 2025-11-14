@@ -45,4 +45,5 @@
         scoreboard players reset #sep_length temp1
         scoreboard players reset #start_index temp1
         scoreboard players reset #end_index temp1
+        data remove storage llib:temp split
 #

@@ -1,0 +1,1 @@
+$data modify storage llib:temp strip.equal_char set string storage llib:output strip $(start_index) $(end_index)

@@ -1,0 +1,1 @@
+$data modify storage llib:temp startswith.equal_str set string storage llib:input startswith.str 0 $(end_index)

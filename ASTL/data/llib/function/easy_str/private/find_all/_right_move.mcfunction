@@ -2,7 +2,7 @@
 
     # 存储结果
 
-    execute store result storage llib:temp find_all.pos int 1 run scoreboard players get #match_start temp1
+    execute store result storage llib:temp find_all.pos short 1 run scoreboard players get #match_start temp1
     data modify storage llib:output find_all append from storage llib:temp find_all.pos
     scoreboard players add #match_start temp1 1
 

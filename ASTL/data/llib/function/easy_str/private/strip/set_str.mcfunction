@@ -1,0 +1,1 @@
+$data modify storage llib:output strip set string storage llib:output strip $(start_index) $(end_index)

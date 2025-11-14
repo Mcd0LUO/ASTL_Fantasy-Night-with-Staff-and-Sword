@@ -41,19 +41,4 @@
         execute if score #match_max_count temp1 matches ..0 run scoreboard players set #match_max_count temp1 -1
         return run function llib:easy_str/private/find_all/_bm_match
 
-    # clear
-        scoreboard players reset #match_start temp1
-        scoreboard players reset #match_delte temp1
-        scoreboard players reset #str_length temp1
-        scoreboard players reset #find_length temp1
-        scoreboard players reset #bad_char_end temp1
-        scoreboard players reset #bad_char_index temp1
-        scoreboard players reset #match_main_start temp1
-        scoreboard players reset #match_main_end temp1
-        scoreboard players reset #match_needle_start temp1
-        scoreboard players reset #match_needle_end temp1
-        scoreboard players reset #match_start temp1
-        scoreboard players reset #is_match temp1
-        scoreboard players reset #char_pos temp1
-        scoreboard players reset #move_step temp1
 #

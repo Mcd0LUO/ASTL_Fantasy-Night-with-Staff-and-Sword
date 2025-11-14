@@ -1,5 +1,5 @@
 # 递归匹配字符串
-    # 所有字符都匹配成功，右移继续匹配
+    # 所有字符都匹配成功，存储结果右移继续匹配
         execute if score #match_needle_start temp1 matches ..-1 run return run function llib:easy_str/private/find_all/_right_move
     # 匹配字符串
         # 获取模式串字符
