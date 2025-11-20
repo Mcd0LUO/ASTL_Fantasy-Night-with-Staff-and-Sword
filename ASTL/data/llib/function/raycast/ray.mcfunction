@@ -1,0 +1,2 @@
+data modify storage llib:input get_arc_range_simple set value {selector: "@e[tag=enemy]",range:30,distance:10, command:"function llib:say"}
+function llib:raycast/get_arc_range_simple with storage llib:input get_arc_range_simple

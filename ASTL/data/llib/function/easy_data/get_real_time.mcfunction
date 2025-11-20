@@ -11,9 +11,9 @@
     execute store result score #hour temp1 run data get storage llib:output time.hour
     execute store result score #minute temp1 run data get storage llib:output time.minute
     execute store result score #second temp1 run data get storage llib:output time.second
-    scoreboard players set #math.60 temp1 60
-    scoreboard players operation #hour temp1 *= #math.60 temp1
+    scoreboard players set #60 temp1 60
+    scoreboard players operation #hour temp1 *= #60 temp1
     scoreboard players operation #minute temp1 += #hour temp1
-    scoreboard players operation #minute temp1 *= #math.60 temp1
+    scoreboard players operation #minute temp1 *= #60 temp1
     execute store result storage llib:output time.timestamp int 1 run scoreboard players operation #second temp1 += #minute temp1
 #

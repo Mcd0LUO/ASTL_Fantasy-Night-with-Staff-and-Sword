@@ -1,6 +1,6 @@
-data modify storage llib:input join.str_list set value ["a", "b", "c","1","2","3","4","5","6","7","8","9","10"]
-data modify storage llib:input join.join set value "----------------------"
-return run function llib:easy_str/join
+# data modify storage llib:input join.str_list set value ["a", "b", "c","1","2","3","4","5","6","7","8","9","10"]
+# data modify storage llib:input join.join set value "----------------------"
+# return run function llib:easy_str/join
 
 # data modify storage llib:input find_all.str set value "This is a test string"
 # data modify storage llib:input find_all.find set value "s"
@@ -28,3 +28,8 @@ return run function llib:easy_str/join
 # data modify storage llib:input strip.str set value "This is a test This"
 # data modify storage llib:input strip.chars set value "This"
 # return run function llib:easy_str/strip
+
+data modify storage llib:input get_arc_range_entity.selector set value "@e[tag=enemy,distance=..5,limit=2]"
+data modify storage llib:input get_arc_range_entity.range set value 60f
+data modify storage llib:input get_arc_range_entity.func set value ""
+function llib:raycast/get_arc_range_entity with storage llib:input get_arc_range_entity

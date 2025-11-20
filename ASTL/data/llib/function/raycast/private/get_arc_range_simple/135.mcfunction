@@ -1,0 +1,1 @@
+$execute as @e[distance=..$(distance),$(selector)] positioned as @s facing entity @a[tag=arc_range_simple,limit=1,distance=..$(distance)] eyes positioned ^ ^ ^1 rotated as @a[tag=arc_range_simple,limit=1,distance=..$(distance)] positioned ^ ^ ^0.3827 at @s[distance=..0.9239] run tag @s add arc_range.target 
